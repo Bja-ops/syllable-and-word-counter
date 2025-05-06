@@ -20,7 +20,6 @@ def policz_slowa(zdanie):
         return 1
     return len(slowa)
 
-# Przykładowe użycie:
 slowo = input("Podaj słowo(word): ")
 print(f"{policz_sylaby(slowo)} sylables")
 
